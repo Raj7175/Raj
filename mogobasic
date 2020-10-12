@@ -1,0 +1,18 @@
+#display database in mongodb
+show dbs
+
+#show current database
+db
+#switch database
+use <DB_NAME>
+#create collection
+db.createCollection("<COLLECTION_NAME>")
+#display collection
+show collections
+
+#insert data
+db.<COLLECTION_NAME>.insert(
+{<KEY>:<VALUE>,
+  ename:"Sachin"
+  })
+
